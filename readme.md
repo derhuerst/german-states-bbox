@@ -3,7 +3,9 @@
 [Minimal bounding boxes](https://en.wikipedia.org/wiki/Minimum_bounding_box) for German states.
 
 [![npm version](https://img.shields.io/npm/v/german-states-bbox.svg)](https://www.npmjs.com/package/german-states-bbox)
+[![build status](https://img.shields.io/travis/derhuerst/german-states-bbox.svg)](https://travis-ci.org/derhuerst/german-states-bbox)
 [![dependency status](https://img.shields.io/david/derhuerst/german-states-bbox.svg)](https://david-dm.org/derhuerst/german-states-bbox)
+[![dev dependency status](https://img.shields.io/david/dev/derhuerst/german-states-bbox.svg)](https://david-dm.org/derhuerst/german-states-bbox#info=devDependencies)
 ![ISC-licensed](https://img.shields.io/github/license/derhuerst/german-states-bbox.svg)
 
 
