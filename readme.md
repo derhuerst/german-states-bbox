@@ -1,6 +1,6 @@
 # german-states-bbox
 
-[Minimal bounding boxes](https://en.wikipedia.org/wiki/Minimum_bounding_box) for German states.
+**[Minimal bounding boxes](https://en.wikipedia.org/wiki/Minimum_bounding_box) for German states.** Taken from [`http://osmtipps.lefty1963.de`](http://osmtipps.lefty1963.de/2008/10/api-und-bounding-box.html).
 
 [![npm version](https://img.shields.io/npm/v/german-states-bbox.svg)](https://www.npmjs.com/package/german-states-bbox)
 [![build status](https://img.shields.io/travis/derhuerst/german-states-bbox.svg)](https://travis-ci.org/derhuerst/german-states-bbox)
