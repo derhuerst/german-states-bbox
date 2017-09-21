@@ -1,7 +1,7 @@
 {
 	"name":         "german-states-bbox",
 	"description":  "Minimal bounding boxes for German states.",
-	"version":      "0.2.0",
+	"version":      "1.0.0",
 	"main":         "index.js",
 	"files":        ["index.js", "stations.js"],
 	"keywords":     ["vbb", "stations", "places"],
