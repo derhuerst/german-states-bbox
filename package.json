@@ -1,21 +1,31 @@
 {
-	"name":         "german-states-bbox",
-	"description":  "Minimal bounding boxes for German states.",
-	"version":      "1.0.0",
-	"main":         "index.js",
-	"files":        ["index.js", "stations.js"],
-	"keywords":     ["vbb", "stations", "places"],
-	"author":       "Jannis R <mail@jannisr.de>",
-	"homepage":     "https://github.com/derhuerst/german-states-bbox",
-	"repository":   "derhuerst/german-states-bbox",
-	"license":      "ISC",
-	"engines":      {"node": ">=4"},
+	"name": "german-states-bbox",
+	"description": "Minimal bounding boxes for German states.",
+	"version": "1.0.0",
+	"main": "index.json",
+	"files": [
+		"index.json"
+	],
+	"keywords": [
+		"germany",
+		"bounding",
+		"box",
+		"geo",
+		"gis"
+	],
+	"author": "Jannis R <mail@jannisr.de>",
+	"homepage": "https://github.com/derhuerst/german-states-bbox",
+	"repository": "derhuerst/german-states-bbox",
+	"license": "ISC",
+	"engines": {
+		"node": ">=4"
+	},
 	"devDependencies": {
 		"tap-min": "^1.2.2",
 		"tape": "^4.8.0"
 	},
 	"scripts": {
-		"test":       "tape test.js | tap-min",
+		"test": "tape test.js | tap-min",
 		"prepublish": "npm test"
 	}
 }
