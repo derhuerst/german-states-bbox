@@ -36,6 +36,30 @@ console.log(require('german-states-bbox'))
 }
 ```
 
+You can also consume the data as GeoJSON:
+
+```js
+const data = require('german-states-bbox/as-geojson')
+console.log(data.BW)
+```
+
+```js
+{
+	type: 'Feature',
+	properties: {name: 'BW'},
+	geometry: {
+		type: 'Polygon',
+		coordinates: [[
+			[7.5113934084, 47.5338000528],
+			[10.4918239143, 47.5338000528],
+			[10.4918239143, 49.7913749328],
+			[7.5113934084, 49.7913749328],
+			[7.5113934084, 47.5338000528]
+		]]
+	}
+}
+```
+
 
 ## Contributing
 
