@@ -1,7 +1,7 @@
 {
 	"name": "german-states-bbox",
 	"description": "Minimal bounding boxes for German states.",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"main": "index.json",
 	"files": [
 		"index.json"
@@ -27,6 +27,6 @@
 	},
 	"scripts": {
 		"test": "tape test.js | tap-min",
-		"prepublish": "npm test"
+		"prepublishOnly": "npm test"
 	}
 }
