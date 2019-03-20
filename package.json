@@ -22,7 +22,7 @@
 	},
 	"devDependencies": {
 		"geojson-is-valid": "github:noffle/geojson-is-valid#update-dep",
-		"tap-min": "^1.2.2",
+		"tap-min": "^2.0.0",
 		"tape": "^4.8.0"
 	},
 	"scripts": {
