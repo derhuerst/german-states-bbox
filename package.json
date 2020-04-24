@@ -23,7 +23,7 @@
 	"devDependencies": {
 		"geojson-is-valid": "github:noffle/geojson-is-valid#update-dep",
 		"tap-min": "^1.2.2",
-		"tape": "^4.8.0"
+		"tape": "^5.0.0"
 	},
 	"scripts": {
 		"test": "tape test.js | tap-min",
